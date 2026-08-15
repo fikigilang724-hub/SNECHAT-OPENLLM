@@ -1,0 +1,16 @@
+{
+  "name": "snechat-backend",
+  "version": "1.0.0",
+  "description": "Backend proxy aman untuk aplikasi chat SNECHAT, menghubungkan ke Google Gemini API (gratis) tanpa membocorkan API key ke frontend.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
